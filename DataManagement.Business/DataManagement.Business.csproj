@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataManagement.Entities\DataManagement.Entities.csproj" />
+    <ProjectReference Include="..\DataManagement.Repository\DataManagement.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
